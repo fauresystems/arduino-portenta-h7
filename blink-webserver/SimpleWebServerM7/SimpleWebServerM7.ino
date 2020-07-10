@@ -134,13 +134,13 @@ void loop() {
           digitalWrite(LEDG, LOW);                // GET /Hg turns the Green LED on
         }
         if (currentLine.endsWith("GET /Lg")){
-          digitalWrite(LEDG, HIGH);                // GET /Hg turns the Green LED on
+          digitalWrite(LEDG, HIGH);                // GET /Hg turns the Green LED off
         }
         if (currentLine.endsWith("GET /Hb")){
           digitalWrite(LEDB, LOW);                // GET /Hg turns the Blue LED on
         }
         if (currentLine.endsWith("GET /Lb")){
-          digitalWrite(LEDB, HIGH);                // GET /Hg turns the Blue LED on
+          digitalWrite(LEDB, HIGH);                // GET /Hg turns the Blue LED off
         } 
 
       }
